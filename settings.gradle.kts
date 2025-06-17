@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "odroid-vendor-sdk"
 include(":rtc")
- 
