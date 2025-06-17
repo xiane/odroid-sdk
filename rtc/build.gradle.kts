@@ -1,5 +1,5 @@
 plugins {
-    id("com.android.library")
+    alias(libs.plugins.android.library)
 }
 
 val DEFAULT_COMPILE_SDK_VERSION : Int by rootProject
@@ -12,7 +12,6 @@ android {
 
     defaultConfig {
         minSdk = DEFAULT_MIN_SDK_VERSION
-        targetSdk = DEFAULT_TARGET_SDK_VERSION
     }
 }
 
