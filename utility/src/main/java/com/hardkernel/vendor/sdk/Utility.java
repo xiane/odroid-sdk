@@ -15,6 +15,7 @@ public class Utility {
         } catch (Exception e) {
             Log.e(TAG, "getInstance->className:" + className);
             Log.e(TAG, "getInstance->exception:" + e);
+            Log.e(TAG, "error:" + e.getCause());
         }
         return null;
     }
@@ -36,6 +37,7 @@ public class Utility {
         } catch (Exception e) {
             Log.e(TAG, "invokeMethod->methodName:" + methodName);
             Log.e(TAG, "invokeMethod->exception:" + e);
+            Log.e(TAG, "error:" + e.getCause());
         }
         return null;
     }
@@ -50,6 +52,7 @@ public class Utility {
         } catch (Exception e) {
             Log.e(TAG, "invokeMethod->methodName:" + methodName);
             Log.e(TAG, "invokeMethod->exception:" + e);
+            Log.e(TAG, "error:" + e.getCause());
         }
         return null;
     }

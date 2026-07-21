@@ -7,7 +7,7 @@ val DEFAULT_MIN_SDK_VERSION : Int by rootProject
 val DEFAULT_TARGET_SDK_VERSION : Int by rootProject
 
 android {
-    namespace = "com.hardkernel.vendor.sdk.Rtc"
+    namespace = "com.hardkernel.vendor.sdk.Pwr"
     compileSdk = DEFAULT_COMPILE_SDK_VERSION
 
     defaultConfig {
